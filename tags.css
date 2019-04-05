@@ -133,9 +133,9 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185009499831140352"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185971884435832832"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="186090970062782464"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="188066841262817291"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="194182804110704640"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="170556186423197697"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="194182804110704640"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="12"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="196501452104007680"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="197773757492887552"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="202517306427834368"]::before,
@@ -526,7 +526,7 @@
   content: "random person";
 }
 
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="188066841262817291"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="170556186423197697"]:hover::before {
   content: " Developer ";
 }
 
@@ -534,7 +534,7 @@
   content: "G0D";
 }
 
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="170556186423197697"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="1"]:hover::before {
   content: "Pending Tag";
 }
 
