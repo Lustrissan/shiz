@@ -15,7 +15,7 @@ class DiscordEncryption {
         this.messageSelector =
             '.da-message .da-content .da-markup:not(.da-embedContentInner)';
         this.textareaSelector = '.da-chat .da-content form textarea';
-        this.encryptionHeader = '-----ENCRYPTED MESSAGE-----';
+        this.encryptionHeader = '-----EM-----';
     }
 
     getName() {
