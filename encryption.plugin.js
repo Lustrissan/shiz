@@ -1,23 +1,4 @@
-//META{"name":"DiscordEncryption","website":"https://github.com/EnKrypt/DiscordEncryption","source":"https://raw.githubusercontent.com/EnKrypt/DiscordEncryption/master/encryption.plugin.js"}*//
-
-/*
-    I am aware that the code here is not neat.
-    The documentation for BetterDiscord, BandagedBD, and Discord UI
-    is tremendously lacking, or broken and incomplete where present.
-    Single file limitations, needing to modify React internal state
-    without access to React Components, having access to JQuery only,
-    has resulted in a combination of UI hacks and large inline code.
-
-    However, things have been separated as nicely as possible,
-    nothing malignant is present (even tokens are handled securely),
-    and while not much can be said for the readability of this code,
-    I want to encourage you to go through it anyway and verify
-    that nothing wrong is being done, because if plugin authors
-    wanted to, they could do a LOT of harm with what is available.
-
-    TODO: Support for light theme
-    TODO: Per channel config
-*/
+//META{"name":"DiscordEncryption","website":"https://github.com/Hmerritt/discord-encryption","source":"https://raw.githubusercontent.com/Lustrissan/master/encryption.plugin.js"}*//
 
 class DiscordEncryption {
     constructor() {
@@ -41,13 +22,13 @@ class DiscordEncryption {
         return 'DiscordEncryption';
     }
     getDescription() {
-        return 'Configurable end to end encryption for Discord';
+        return 'Yoinked & fixed the original one :Trihard:';
     }
     getVersion() {
-        return '0.0.3';
+        return '6.6.6';
     }
     getAuthor() {
-        return 'EnKrypt';
+        return 'Lustris';
     }
 
     start() {
